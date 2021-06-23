@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13 paskaita</title>
+
+    <style>
+        .container {
+            height: 1000px;
+            background-color: gray;
+            z-index: 5;
+            position: relative;
+        }
+        .kvadratai {
+            width: 1600px;
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            transform: translate(-50%,-50%);
+        }
+        .kvadratas {
+            width: 33.33%;
+            height: 400px;
+            float: left;
+        }
+        .kvadratelis {
+            width: 50px;
+            height: 50px;
+            background-color: gray;
+            position: absolute;
+            z-index: 7;
+            top: 50%;
+            left: 50%;
+        }
+
+        .raudona {
+            background-color: darkred;
+        }
+        .zalia {
+            background-color: green;
+        }
+        .geltona {
+            background-color: yellow;
+        }
+        .footer {
+            height: 500px;
+            
+        }
+        .menu {
+            width: 100%;
+            height: 700px;
+            top: 50%;
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            display: inline-block;
+        }
+        .lipdukas {
+            width: 100%;
+            height: 30px;
+            margin-top: 500px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="menu geltona">
+            <ul>
+                <li>Pagrindinis</li>
+                <li>Pagrindinis1</li>
+                <li>Pagrindinis2</li>
+            </ul>
+        </div>
+
+        <div class="lipdukas raudona">
+            tekstas 
+        </div>
+
+        <div class="kvadratai">
+            <div class="kvadratas geltona">la</div>
+            <div class="kvadratas zalia">la</div>
+            <div class="kvadratas raudona">la</div>
+        </div>
+
+        <div class="footer">
+            labas
+        </div>
+    </div>
+
+    
+
+  
+</body>
+</html>
